@@ -53,8 +53,8 @@ def retrieve_memory(query: str):
         if content.type == "text"
     ]
     return {"results": content_text}
-    
-    # if results.data:
+
+    # if results.data:  
     #     return {"Status": "found", "memory": results.data[0].metadata.text}
     # else:
     #     return {"Status": "not found", "memory": None}
